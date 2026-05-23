@@ -25,8 +25,7 @@ function loadNavigation() {
 
     var links = [
         { label: 'Home', href: basePath + '/index.html' },
-        { label: 'Digital Works', href: basePath + '/pages/digital.html' },
-        { label: 'Analog Works', href: basePath + '/pages/analog.html' }
+        { label: 'Projects', href: basePath + '/pages/projects.html' }
     ];
 
     var currentPath = normalizePath(window.location.pathname || '/');
