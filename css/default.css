@@ -399,6 +399,12 @@ footer {
     gap: 0.55rem;
 }
 
+.compact-media {
+    width: 100%;
+    max-width: 720px;
+    margin-inline: auto;
+}
+
 .media-stage {
     position: relative;
 }
